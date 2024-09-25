@@ -11,12 +11,12 @@ public class DanceParty : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-       
     }
 
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             anim.SetTrigger("Dance_01");
